@@ -1,3 +1,4 @@
+//its a base class
 package BasePkg;
 
 import java.util.List;
