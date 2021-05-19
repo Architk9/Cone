@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">EdgeTest</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">284,713</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">ChromeTest</a></td><td class="num">0</td><td class="num attn">7</td><td class="num">0</td><td class="num">0</td><td class="num">1,900</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">5</th><th class="num attn">7</th><th class="num">0</th><th class="num attn">2</th><th class="num">286,613</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">EdgeTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Login_Type.Login_Type_Verify</td><td><a href="#m0">Act3</a></td><td rowspan="1">1619412592886</td><td rowspan="1">95900</td></tr><tr class="failedeven"><td><a href="#m1">defaultchecks</a></td><td rowspan="1">1619412472189</td><td rowspan="1">13094</td></tr><tr><th colspan="4">EdgeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">Login_Type.Login_Type_Verify</td><td><a href="#m2">Act2</a></td><td rowspan="1">1619412533789</td><td rowspan="1">59096</td></tr><tr class="passedeven"><td><a href="#m3">New_Acti_btn</a></td><td rowspan="1">1619412533359</td><td rowspan="1">426</td></tr><tr class="passedeven"><td><a href="#m4">UnitWise</a></td><td rowspan="1">1619412485299</td><td rowspan="1">47336</td></tr><tr class="passedeven"><td><a href="#m5">progress_bar</a></td><td rowspan="1">1619412461907</td><td rowspan="1">10251</td></tr><tr class="passedeven"><td><a href="#m6">review_screens</a></td><td rowspan="1">1619412532695</td><td rowspan="1">656</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">ChromeTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Login_Type.Login_Type_Verify</td><td><a href="#m7">conti</a></td><td rowspan="1">1619412689074</td><td rowspan="1">1843</td></tr><tr><th colspan="4">ChromeTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">Login_Type.Login_Type_Verify</td><td><a href="#m8">close</a></td><td rowspan="1">1619412690972</td><td rowspan="1">-1619412690972</td></tr><tr><th colspan="4">ChromeTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="7">Login_Type.Login_Type_Verify</td><td><a href="#m9">Act2</a></td><td rowspan="1">1619412690960</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m10">Act3</a></td><td rowspan="1">1619412690966</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m11">New_Acti_btn</a></td><td rowspan="1">1619412690955</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m12">UnitWise</a></td><td rowspan="1">1619412690943</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m13">defaultchecks</a></td><td rowspan="1">1619412690937</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m14">progress_bar</a></td><td rowspan="1">1619412690927</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m15">review_screens</a></td><td rowspan="1">1619412690948</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>EdgeTest</h2><h3 id="m0">Login_Type.Login_Type_Verify#Act3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;drag_element gap_match_drag image-between-text&apos;][contains(@data-model-id,&apos;1618&apos;)]&quot;}
+  (Session info: MicrosoftEdge=90.0.818.46)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MUAM1G2&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 90.0.818.46, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58842}, msedge: {msedgedriverVersion: 89.0.774.57 (4fe9232d42eb20..., userDataDir: C:\Users\Madhuri\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd778a26b8cfdc55c678b67b3d947016
+*** Element info: {Using=xpath, value=//*[@class=&apos;drag_element gap_match_drag image-between-text&apos;][contains(@data-model-id,&apos;1618&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Utils.commonUtils.sourcetoken(commonUtils.java:139)
+	at Utils.commonUtils.count_placeholders(commonUtils.java:100)
+	at Pages.Activity3.perform_act(Activity3.java:49)
+	at Login_Type.Login_Type_Verify.Act3(Login_Type_Verify.java:158)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Login_Type.Login_Type_Verify#defaultchecks</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;btn green-btn&apos;]&quot;}
+  (Session info: MicrosoftEdge=90.0.818.46)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MUAM1G2&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 90.0.818.46, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:58842}, msedge: {msedgedriverVersion: 89.0.774.57 (4fe9232d42eb20..., userDataDir: C:\Users\Madhuri\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fd778a26b8cfdc55c678b67b3d947016
+*** Element info: {Using=xpath, value=//a[@class=&apos;btn green-btn&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Pages.Activity_Pages.default_settings(Activity_Pages.java:44)
+	at Login_Type.Login_Type_Verify.defaultchecks(Login_Type_Verify.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Login_Type.Login_Type_Verify#Act2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Login_Type.Login_Type_Verify#New_Acti_btn</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Login_Type.Login_Type_Verify#UnitWise</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Login_Type.Login_Type_Verify#progress_bar</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Login_Type.Login_Type_Verify#review_screens</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>ChromeTest</h2><h3 id="m7">Login_Type.Login_Type_Verify#conti</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 88
+Current browser version is 90.0.4430.85 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MUAM1G2&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x005CB963+483]
+	GetHandleVerifier [0x005CB941+449]
+	GetHandleVerifier [0x00973308+3832712]
+	GetHandleVerifier [0x0098D69A+3940122]
+	GetHandleVerifier [0x00989AFB+3924859]
+	GetHandleVerifier [0x00987D9C+3917340]
+	GetHandleVerifier [0x009AE7FE+4075646]
+	GetHandleVerifier [0x009AE56C+4074988]
+	GetHandleVerifier [0x009AB2EB+4062059]
+	GetHandleVerifier [0x0098ED14+3945876]
+	GetHandleVerifier [0x0098FBCE+3949646]
+	GetHandleVerifier [0x0098FB59+3949529]
+	Ordinal0 [0x0058B5CC+46540]
+	Ordinal0 [0x00589F53+40787]
+	Ordinal0 [0x00589B12+39698]
+	GetHandleVerifier [0x00891468+2907368]
+	GetHandleVerifier [0x006D71EE+1096302]
+	GetHandleVerifier [0x00693E8D+821005]
+	GetHandleVerifier [0x0069396B+819691]
+	GetHandleVerifier [0x00693881+819457]
+	GetHandleVerifier [0x006BF463+998627]
+	BaseThreadInitThunk [0x774DFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A1E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Login_Type.Login_Type_Verify.conti(Login_Type_Verify.java:68)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Login_Type.Login_Type_Verify#close</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Login_Type.Login_Type_Verify#Act2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 88
+Current browser version is 90.0.4430.85 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MUAM1G2&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x005CB963+483]
+	GetHandleVerifier [0x005CB941+449]
+	GetHandleVerifier [0x00973308+3832712]
+	GetHandleVerifier [0x0098D69A+3940122]
+	GetHandleVerifier [0x00989AFB+3924859]
+	GetHandleVerifier [0x00987D9C+3917340]
+	GetHandleVerifier [0x009AE7FE+4075646]
+	GetHandleVerifier [0x009AE56C+4074988]
+	GetHandleVerifier [0x009AB2EB+4062059]
+	GetHandleVerifier [0x0098ED14+3945876]
+	GetHandleVerifier [0x0098FBCE+3949646]
+	GetHandleVerifier [0x0098FB59+3949529]
+	Ordinal0 [0x0058B5CC+46540]
+	Ordinal0 [0x00589F53+40787]
+	Ordinal0 [0x00589B12+39698]
+	GetHandleVerifier [0x00891468+2907368]
+	GetHandleVerifier [0x006D71EE+1096302]
+	GetHandleVerifier [0x00693E8D+821005]
+	GetHandleVerifier [0x0069396B+819691]
+	GetHandleVerifier [0x00693881+819457]
+	GetHandleVerifier [0x006BF463+998627]
+	BaseThreadInitThunk [0x774DFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A1E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Login_Type.Login_Type_Verify.conti(Login_Type_Verify.java:68)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Login_Type.Login_Type_Verify#Act3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 88
+Current browser version is 90.0.4430.85 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MUAM1G2&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x005CB963+483]
+	GetHandleVerifier [0x005CB941+449]
+	GetHandleVerifier [0x00973308+3832712]
+	GetHandleVerifier [0x0098D69A+3940122]
+	GetHandleVerifier [0x00989AFB+3924859]
+	GetHandleVerifier [0x00987D9C+3917340]
+	GetHandleVerifier [0x009AE7FE+4075646]
+	GetHandleVerifier [0x009AE56C+4074988]
+	GetHandleVerifier [0x009AB2EB+4062059]
+	GetHandleVerifier [0x0098ED14+3945876]
+	GetHandleVerifier [0x0098FBCE+3949646]
+	GetHandleVerifier [0x0098FB59+3949529]
+	Ordinal0 [0x0058B5CC+46540]
+	Ordinal0 [0x00589F53+40787]
+	Ordinal0 [0x00589B12+39698]
+	GetHandleVerifier [0x00891468+2907368]
+	GetHandleVerifier [0x006D71EE+1096302]
+	GetHandleVerifier [0x00693E8D+821005]
+	GetHandleVerifier [0x0069396B+819691]
+	GetHandleVerifier [0x00693881+819457]
+	GetHandleVerifier [0x006BF463+998627]
+	BaseThreadInitThunk [0x774DFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A1E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Login_Type.Login_Type_Verify.conti(Login_Type_Verify.java:68)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Login_Type.Login_Type_Verify#New_Acti_btn</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 88
+Current browser version is 90.0.4430.85 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MUAM1G2&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x005CB963+483]
+	GetHandleVerifier [0x005CB941+449]
+	GetHandleVerifier [0x00973308+3832712]
+	GetHandleVerifier [0x0098D69A+3940122]
+	GetHandleVerifier [0x00989AFB+3924859]
+	GetHandleVerifier [0x00987D9C+3917340]
+	GetHandleVerifier [0x009AE7FE+4075646]
+	GetHandleVerifier [0x009AE56C+4074988]
+	GetHandleVerifier [0x009AB2EB+4062059]
+	GetHandleVerifier [0x0098ED14+3945876]
+	GetHandleVerifier [0x0098FBCE+3949646]
+	GetHandleVerifier [0x0098FB59+3949529]
+	Ordinal0 [0x0058B5CC+46540]
+	Ordinal0 [0x00589F53+40787]
+	Ordinal0 [0x00589B12+39698]
+	GetHandleVerifier [0x00891468+2907368]
+	GetHandleVerifier [0x006D71EE+1096302]
+	GetHandleVerifier [0x00693E8D+821005]
+	GetHandleVerifier [0x0069396B+819691]
+	GetHandleVerifier [0x00693881+819457]
+	GetHandleVerifier [0x006BF463+998627]
+	BaseThreadInitThunk [0x774DFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A1E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Login_Type.Login_Type_Verify.conti(Login_Type_Verify.java:68)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Login_Type.Login_Type_Verify#UnitWise</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 88
+Current browser version is 90.0.4430.85 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MUAM1G2&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x005CB963+483]
+	GetHandleVerifier [0x005CB941+449]
+	GetHandleVerifier [0x00973308+3832712]
+	GetHandleVerifier [0x0098D69A+3940122]
+	GetHandleVerifier [0x00989AFB+3924859]
+	GetHandleVerifier [0x00987D9C+3917340]
+	GetHandleVerifier [0x009AE7FE+4075646]
+	GetHandleVerifier [0x009AE56C+4074988]
+	GetHandleVerifier [0x009AB2EB+4062059]
+	GetHandleVerifier [0x0098ED14+3945876]
+	GetHandleVerifier [0x0098FBCE+3949646]
+	GetHandleVerifier [0x0098FB59+3949529]
+	Ordinal0 [0x0058B5CC+46540]
+	Ordinal0 [0x00589F53+40787]
+	Ordinal0 [0x00589B12+39698]
+	GetHandleVerifier [0x00891468+2907368]
+	GetHandleVerifier [0x006D71EE+1096302]
+	GetHandleVerifier [0x00693E8D+821005]
+	GetHandleVerifier [0x0069396B+819691]
+	GetHandleVerifier [0x00693881+819457]
+	GetHandleVerifier [0x006BF463+998627]
+	BaseThreadInitThunk [0x774DFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A1E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Login_Type.Login_Type_Verify.conti(Login_Type_Verify.java:68)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Login_Type.Login_Type_Verify#defaultchecks</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 88
+Current browser version is 90.0.4430.85 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MUAM1G2&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x005CB963+483]
+	GetHandleVerifier [0x005CB941+449]
+	GetHandleVerifier [0x00973308+3832712]
+	GetHandleVerifier [0x0098D69A+3940122]
+	GetHandleVerifier [0x00989AFB+3924859]
+	GetHandleVerifier [0x00987D9C+3917340]
+	GetHandleVerifier [0x009AE7FE+4075646]
+	GetHandleVerifier [0x009AE56C+4074988]
+	GetHandleVerifier [0x009AB2EB+4062059]
+	GetHandleVerifier [0x0098ED14+3945876]
+	GetHandleVerifier [0x0098FBCE+3949646]
+	GetHandleVerifier [0x0098FB59+3949529]
+	Ordinal0 [0x0058B5CC+46540]
+	Ordinal0 [0x00589F53+40787]
+	Ordinal0 [0x00589B12+39698]
+	GetHandleVerifier [0x00891468+2907368]
+	GetHandleVerifier [0x006D71EE+1096302]
+	GetHandleVerifier [0x00693E8D+821005]
+	GetHandleVerifier [0x0069396B+819691]
+	GetHandleVerifier [0x00693881+819457]
+	GetHandleVerifier [0x006BF463+998627]
+	BaseThreadInitThunk [0x774DFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A1E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Login_Type.Login_Type_Verify.conti(Login_Type_Verify.java:68)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">Login_Type.Login_Type_Verify#progress_bar</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 88
+Current browser version is 90.0.4430.85 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MUAM1G2&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x005CB963+483]
+	GetHandleVerifier [0x005CB941+449]
+	GetHandleVerifier [0x00973308+3832712]
+	GetHandleVerifier [0x0098D69A+3940122]
+	GetHandleVerifier [0x00989AFB+3924859]
+	GetHandleVerifier [0x00987D9C+3917340]
+	GetHandleVerifier [0x009AE7FE+4075646]
+	GetHandleVerifier [0x009AE56C+4074988]
+	GetHandleVerifier [0x009AB2EB+4062059]
+	GetHandleVerifier [0x0098ED14+3945876]
+	GetHandleVerifier [0x0098FBCE+3949646]
+	GetHandleVerifier [0x0098FB59+3949529]
+	Ordinal0 [0x0058B5CC+46540]
+	Ordinal0 [0x00589F53+40787]
+	Ordinal0 [0x00589B12+39698]
+	GetHandleVerifier [0x00891468+2907368]
+	GetHandleVerifier [0x006D71EE+1096302]
+	GetHandleVerifier [0x00693E8D+821005]
+	GetHandleVerifier [0x0069396B+819691]
+	GetHandleVerifier [0x00693881+819457]
+	GetHandleVerifier [0x006BF463+998627]
+	BaseThreadInitThunk [0x774DFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A1E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Login_Type.Login_Type_Verify.conti(Login_Type_Verify.java:68)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">Login_Type.Login_Type_Verify#review_screens</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 88
+Current browser version is 90.0.4430.85 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-MUAM1G2&apos;, ip: &apos;192.168.1.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x005CB963+483]
+	GetHandleVerifier [0x005CB941+449]
+	GetHandleVerifier [0x00973308+3832712]
+	GetHandleVerifier [0x0098D69A+3940122]
+	GetHandleVerifier [0x00989AFB+3924859]
+	GetHandleVerifier [0x00987D9C+3917340]
+	GetHandleVerifier [0x009AE7FE+4075646]
+	GetHandleVerifier [0x009AE56C+4074988]
+	GetHandleVerifier [0x009AB2EB+4062059]
+	GetHandleVerifier [0x0098ED14+3945876]
+	GetHandleVerifier [0x0098FBCE+3949646]
+	GetHandleVerifier [0x0098FB59+3949529]
+	Ordinal0 [0x0058B5CC+46540]
+	Ordinal0 [0x00589F53+40787]
+	Ordinal0 [0x00589B12+39698]
+	GetHandleVerifier [0x00891468+2907368]
+	GetHandleVerifier [0x006D71EE+1096302]
+	GetHandleVerifier [0x00693E8D+821005]
+	GetHandleVerifier [0x0069396B+819691]
+	GetHandleVerifier [0x00693881+819457]
+	GetHandleVerifier [0x006BF463+998627]
+	BaseThreadInitThunk [0x774DFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A4E+286]
+	RtlGetAppContainerNamedObjectPath [0x77AF7A1E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at Login_Type.Login_Type_Verify.conti(Login_Type_Verify.java:68)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
